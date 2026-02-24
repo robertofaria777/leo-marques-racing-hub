@@ -1,25 +1,25 @@
 import { useInView } from "@/hooks/useInView";
 
+import leoSpa from "@/assets/leo-spa.png";
+import leoTeam from "@/assets/leo-team.png";
+import leoAwards from "@/assets/leo-awards.png";
 import galleryPitwall from "@/assets/gallery-pitwall.jpg";
 import galleryOnboard from "@/assets/gallery-onboard.jpg";
 import galleryGarage from "@/assets/gallery-garage.jpg";
 import gallerySim from "@/assets/gallery-sim.jpg";
 import galleryData from "@/assets/gallery-data.jpg";
-import galleryTyres from "@/assets/gallery-tyres.jpg";
-import galleryDebrief from "@/assets/gallery-debrief.jpg";
-import galleryPorsche from "@/assets/gallery-porsche.jpg";
 import galleryFerrari from "@/assets/gallery-ferrari.jpg";
 
 const images = [
+  { src: leoSpa, caption: "Spa-Francorchamps — Porsche Cup" },
   { src: galleryPitwall, caption: "Pitwall — Live Telemetry" },
-  { src: galleryOnboard, caption: "Onboard — Driver POV" },
   { src: galleryGarage, caption: "Garage — Pre-Session Prep" },
-  { src: galleryPorsche, caption: "Porsche Cup — Track Action" },
+  { src: leoTeam, caption: "Team — Race Win Celebration" },
   { src: galleryData, caption: "Data — Stint Analysis" },
-  { src: galleryFerrari, caption: "Ferrari Challenge" },
+  { src: galleryOnboard, caption: "Onboard — Driver POV" },
+  { src: leoAwards, caption: "Prize Giving — Season Awards" },
   { src: gallerySim, caption: "Sim Rig — Virtual Testing" },
-  { src: galleryTyres, caption: "Tyre Management" },
-  { src: galleryDebrief, caption: "Debrief — Driver Coaching" },
+  { src: galleryFerrari, caption: "Ferrari Challenge" },
 ];
 
 const Gallery = () => {
