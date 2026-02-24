@@ -1,5 +1,6 @@
 import { MapPin } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import leoPortrait from "@/assets/leo-portrait.png";
 
 const series = ["Porsche Cup", "GT4", "Ferrari Challenge"];
 
@@ -19,6 +20,11 @@ const Hero = () => (
     <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-primary to-transparent" />
 
     <div className="relative z-10 container mx-auto px-6 text-center">
+      {/* Portrait */}
+      <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-full overflow-hidden mx-auto mb-8 border-2 border-primary/50 animate-fade-up opacity-0">
+        <img src={leoPortrait} alt="Leonardo Marques" className="w-full h-full object-cover object-top" />
+      </div>
+
       <p className="text-sm tracking-[0.3em] uppercase text-primary font-body mb-4 animate-fade-up opacity-0">
         Motorsport Engineering
       </p>
