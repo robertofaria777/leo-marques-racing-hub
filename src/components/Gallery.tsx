@@ -9,6 +9,7 @@ import galleryGarage from "@/assets/gallery-garage.jpg";
 import gallerySim from "@/assets/gallery-sim.jpg";
 import galleryData from "@/assets/gallery-data.jpg";
 import galleryFerrari from "@/assets/gallery-ferrari.jpg";
+import leoGala from "@/assets/leo-gala.jpg";
 
 const images = [
   { src: leoSpa, caption: "Spa-Francorchamps — Porsche Cup" },
@@ -20,6 +21,7 @@ const images = [
   { src: leoAwards, caption: "Prize Giving — Season Awards" },
   { src: gallerySim, caption: "Sim Rig — Virtual Testing" },
   { src: galleryFerrari, caption: "Ferrari Challenge" },
+  { src: leoGala, caption: "FPAK Gala — Season Champions" },
 ];
 
 const Gallery = () => {
@@ -44,9 +46,8 @@ const Gallery = () => {
           {images.map((img, i) => (
             <div
               key={img.caption}
-              className={`group relative overflow-hidden rounded-sm aspect-square ${
-                inView ? "animate-fade-up opacity-0" : "opacity-0"
-              }`}
+              className={`group relative overflow-hidden rounded-sm aspect-square ${inView ? "animate-fade-up opacity-0" : "opacity-0"
+                }`}
               style={{ animationDelay: `${i * 80}ms` }}
             >
               <img

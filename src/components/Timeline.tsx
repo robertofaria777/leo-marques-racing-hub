@@ -14,7 +14,7 @@ const entries = [
     ],
   },
   {
-    title: "Aston Martin GT4 Challenge",
+    title: "Aston Martin GT4",
     role: "Performance Engineer",
     period: "2022 – 2023",
     bullets: [
@@ -60,9 +60,8 @@ const Timeline = () => {
           {entries.map((entry, i) => (
             <div
               key={entry.title}
-              className={`relative mb-16 last:mb-0 md:flex ${
-                i % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-              } ${inView ? "animate-fade-up opacity-0" : "opacity-0"}`}
+              className={`relative mb-16 last:mb-0 md:flex ${i % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+                } ${inView ? "animate-fade-up opacity-0" : "opacity-0"}`}
               style={{ animationDelay: `${i * 200}ms` }}
             >
               {/* Dot */}
@@ -70,9 +69,8 @@ const Timeline = () => {
 
               {/* Content */}
               <div
-                className={`ml-12 md:ml-0 md:w-1/2 ${
-                  i % 2 === 0 ? "md:pr-12" : "md:pl-12"
-                }`}
+                className={`ml-12 md:ml-0 md:w-1/2 ${i % 2 === 0 ? "md:pr-12" : "md:pl-12"
+                  }`}
               >
                 <span className="text-xs text-primary font-body tracking-wider">
                   {entry.period}
