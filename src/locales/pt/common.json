@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "title": "Leonardo Marques - Engenheiro de Motorsport e Sim Racer",
+    "description": "Leonardo 'Leo' Marques - Engenheiro de Motorsport especializado em dados de performance, engenharia de pista e sim racing. Porsche Cup, GT4, Ferrari Challenge."
+  },
+  "navbar": {
+    "brand": "Leo.Marques",
+    "menuToggle": "Alternar menu",
+    "language": "Idioma",
+    "links": {
+      "home": "Inicio",
+      "services": "Servicos",
+      "experience": "Experiencia",
+      "gallery": "Galeria",
+      "sim": "Sim Racing",
+      "contact": "Contacto"
+    }
+  },
+  "hero": {
+    "eyebrow": "Engenharia de Motorsport",
+    "role": "Engenheiro de Motorsport - Performance e Dados - Sim Racer",
+    "location": "Lourinha, Portugal",
+    "portraitAlt": "Leonardo Marques",
+    "series": ["Porsche Cup", "GT4", "Ferrari Challenge"],
+    "ctaPrimary": "Trabalha Comigo",
+    "ctaSecondary": "Ver Experiencia"
+  },
+  "valueCards": {
+    "eyebrow": "O Que Entrego",
+    "title": "Performance de Engenharia",
+    "cards": [
+      {
+        "title": "Engenharia de Pista",
+        "description": "Engenharia de corrida no local, cobrindo direcao de setup, planos de sessao, estrategia de pneus e comunicacao por radio em tempo real para maximizar cada sessao."
+      },
+      {
+        "title": "Dados e Desenvolvimento do Piloto",
+        "description": "Analise profunda de telemetria, breakdowns de stint, comparacoes de setores e debriefs estruturados que transformam numeros em melhorias de conducao acionaveis."
+      },
+      {
+        "title": "Simulacao e Suporte Remoto",
+        "description": "Preparacao pre-evento em plataformas de simulacao, correlacao de setup, revisao remota de dados e coaching de piloto entre fins de semana de corrida."
+      }
+    ]
+  },
+  "timeline": {
+    "eyebrow": "Percurso",
+    "title": "Experiencia",
+    "entries": [
+      {
+        "title": "Porsche Carrera Cup",
+        "role": "Engenheiro de Corrida",
+        "period": "2023 - Presente",
+        "bullets": [
+          "Desenvolvimento de planos de sessao e estrategias de qualificacao",
+          "Gestao da direcao de setup em plataformas mecanicas e aerodinamicas",
+          "Otimizacao de janelas de pressao dos pneus e alocacao de compostos",
+          "Entrega de debriefs de telemetria e video apos cada sessao",
+          "Coordenacao de estrategia de radio em tempo real durante as corridas"
+        ]
+      },
+      {
+        "title": "Aston Martin GT4",
+        "role": "Engenheiro de Performance",
+        "period": "2022 - 2023",
+        "bullets": [
+          "Lideranca de aquisicao e analise de dados para alinhamentos multi-piloto",
+          "Desenho de estrategias de stint para rondas de resistencia",
+          "Coaching especifico por piloto com comparacoes ao nivel de setor",
+          "Construcao de matrizes de alteracao de setup para condicoes variaveis de pista"
+        ]
+      },
+      {
+        "title": "Ferrari Challenge",
+        "role": "Engenheiro de Dados",
+        "period": "2021 - 2022",
+        "bullets": [
+          "Processamento e analise de telemetria onboard em treinos, qualificacao e corrida",
+          "Producao de modelos de degradacao de pneus para orientar janelas de pit-stop",
+          "Suporte ao desenvolvimento do piloto com sessoes estruturadas de revisao de video",
+          "Colaboracao com a equipa em ajustes de amortecedor e altura ao solo",
+          "Entrega de relatorios de debrief em menos de 30 minutos apos cada sessao"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Bastidores",
+    "title": "Media em Destaque",
+    "images": [
+      "Spa-Francorchamps - Porsche Cup",
+      "Pitwall - Telemetria em Direto",
+      "Box - Preparacao Pre-Sessao",
+      "Equipa - Celebracao de Vitoria",
+      "Dados - Analise de Stint",
+      "Onboard - Perspetiva do Piloto",
+      "Entrega de Premios - Premios da Epoca",
+      "Sim Rig - Testes Virtuais",
+      "Ferrari Challenge",
+      "Gala FPAK - Campeoes da Epoca"
+    ]
+  },
+  "simRacing": {
+    "eyebrow": "Do Virtual para o Real",
+    "title": "Sim Racing",
+    "imageAlt": "Setup de sim racing",
+    "points": [
+      {
+        "title": "Preparacao Pre-Evento",
+        "text": "Cada fim de semana de corrida comeca no simulador. Aprendo os circuitos curva a curva, testo setups base e desenvolvo voltas de referencia antes do carro entrar em pista."
+      },
+      {
+        "title": "Racecraft e Estrategia",
+        "text": "O sim racing melhora a tomada de decisao sob pressao - janelas de ultrapassagem, gestao de pneus e estrategia de combustivel transferem-se diretamente para a performance real."
+      },
+      {
+        "title": "Correlacao de Dados",
+        "text": "Comparar a telemetria do simulador com os dados do carro real ajuda a validar alteracoes de setup e a identificar onde o piloto pode extrair mais ritmo."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Do Paddock",
+    "title": "Testemunhos",
+    "quotes": [
+      {
+        "text": "A analise de dados e os debriefs do Leo transformaram totalmente a minha abordagem a qualificacao. Encontrei mais de meio segundo em dois fins de semana.",
+        "author": "Piloto GT4",
+        "role": "Aston Martin GT4 Challenge"
+      },
+      {
+        "text": "Ter um engenheiro que percebe o carro real e o simulador ao mesmo tempo e uma vantagem rara. O Leo faz essa ponte melhor do que qualquer pessoa com quem trabalhei.",
+        "author": "Competidor Porsche Cup",
+        "role": "Porsche Carrera Cup"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Vamos Falar",
+    "title": "Contacto",
+    "emailCta": "Enviar Email",
+    "form": {
+      "namePlaceholder": "Nome",
+      "emailPlaceholder": "Email",
+      "messagePlaceholder": "A tua mensagem...",
+      "send": "Enviar Mensagem",
+      "success": "Obrigado pelo contacto! Vou responder-te em breve."
+    }
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados."
+  },
+  "notFound": {
+    "message": "Ups! Pagina nao encontrada",
+    "backHome": "Voltar ao Inicio"
+  }
+}

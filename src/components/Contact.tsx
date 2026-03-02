@@ -1,15 +1,16 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Mail, Instagram, Send } from "lucide-react";
 import { useInView } from "@/hooks/useInView";
 
 const Contact = () => {
   const { ref, inView } = useInView();
+  const { t } = useTranslation();
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // placeholder
-    alert("Thanks for reaching out! I'll get back to you soon.");
+    alert(t("contact.form.success"));
     setForm({ name: "", email: "", message: "" });
   };
 
@@ -18,10 +19,10 @@ const Contact = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-xs tracking-[0.3em] uppercase text-primary font-body mb-3">
-            Let's Connect
+            {t("contact.eyebrow")}
           </p>
           <h2 className="font-heading text-3xl sm:text-5xl uppercase text-foreground">
-            Contact
+            {t("contact.title")}
           </h2>
         </div>
 
@@ -29,7 +30,6 @@ const Contact = () => {
           ref={ref}
           className="max-w-2xl mx-auto"
         >
-          {/* Quick links */}
           <div
             className={`flex flex-wrap justify-center gap-4 mb-12 ${
               inView ? "animate-fade-up opacity-0" : "opacity-0"
@@ -40,7 +40,7 @@ const Contact = () => {
               className="flex items-center gap-2 px-6 py-3 rounded-sm border border-border bg-secondary text-secondary-foreground text-sm font-body hover:border-primary transition-colors"
             >
               <Mail size={16} />
-              Email Me
+              {t("contact.emailCta")}
             </a>
             <a
               href="https://instagram.com/leo_marques__28"
@@ -53,7 +53,6 @@ const Contact = () => {
             </a>
           </div>
 
-          {/* Form */}
           <form
             onSubmit={handleSubmit}
             className={`space-y-5 ${
@@ -63,7 +62,7 @@ const Contact = () => {
             <div className="grid sm:grid-cols-2 gap-5">
               <input
                 type="text"
-                placeholder="Name"
+                placeholder={t("contact.form.namePlaceholder")}
                 required
                 value={form.name}
                 onChange={(e) => setForm({ ...form, name: e.target.value })}
@@ -71,7 +70,7 @@ const Contact = () => {
               />
               <input
                 type="email"
-                placeholder="Email"
+                placeholder={t("contact.form.emailPlaceholder")}
                 required
                 value={form.email}
                 onChange={(e) => setForm({ ...form, email: e.target.value })}
@@ -79,7 +78,7 @@ const Contact = () => {
               />
             </div>
             <textarea
-              placeholder="Your message..."
+              placeholder={t("contact.form.messagePlaceholder")}
               required
               rows={5}
               value={form.message}
@@ -91,7 +90,7 @@ const Contact = () => {
               className="flex items-center gap-2 px-8 py-3 bg-primary text-primary-foreground font-heading text-sm tracking-wider uppercase rounded-sm hover:opacity-90 transition-opacity glow-red mx-auto"
             >
               <Send size={16} />
-              Send Message
+              {t("contact.form.send")}
             </button>
           </form>
         </div>

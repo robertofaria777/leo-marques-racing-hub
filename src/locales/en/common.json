@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "title": "Leonardo Marques - Motorsport Engineer & Sim Racer",
+    "description": "Leonardo 'Leo' Marques - Motorsport Engineer specializing in performance data, trackside engineering, and sim racing. Porsche Cup, GT4, Ferrari Challenge."
+  },
+  "navbar": {
+    "brand": "Leo.Marques",
+    "menuToggle": "Toggle menu",
+    "language": "Language",
+    "links": {
+      "home": "Home",
+      "services": "Services",
+      "experience": "Experience",
+      "gallery": "Gallery",
+      "sim": "Sim Racing",
+      "contact": "Contact"
+    }
+  },
+  "hero": {
+    "eyebrow": "Motorsport Engineering",
+    "role": "Motorsport Engineer - Performance & Data - Sim Racer",
+    "location": "Lourinha, Portugal",
+    "portraitAlt": "Leonardo Marques",
+    "series": ["Porsche Cup", "GT4", "Ferrari Challenge"],
+    "ctaPrimary": "Work With Me",
+    "ctaSecondary": "View Experience"
+  },
+  "valueCards": {
+    "eyebrow": "What I Deliver",
+    "title": "Engineering Performance",
+    "cards": [
+      {
+        "title": "Trackside Engineering",
+        "description": "On-site race engineering covering setup direction, run plans, tyre strategy, and real-time radio communication to maximize every session."
+      },
+      {
+        "title": "Data & Driver Development",
+        "description": "Deep telemetry analysis, stint breakdowns, sector comparisons, and structured debriefs that translate numbers into actionable driving improvements."
+      },
+      {
+        "title": "Simulation & Remote Support",
+        "description": "Pre-event track preparation via sim platforms, setup correlation, remote data review, and driver coaching between race weekends."
+      }
+    ]
+  },
+  "timeline": {
+    "eyebrow": "Track Record",
+    "title": "Experience",
+    "entries": [
+      {
+        "title": "Porsche Carrera Cup",
+        "role": "Race Engineer",
+        "period": "2023 - Present",
+        "bullets": [
+          "Developed session-specific run plans and qualifying strategies",
+          "Managed setup direction across mechanical and aero platforms",
+          "Optimized tyre pressure windows and compound allocation",
+          "Delivered post-session telemetry and video debriefs",
+          "Coordinated real-time radio strategy during races"
+        ]
+      },
+      {
+        "title": "Aston Martin GT4",
+        "role": "Performance Engineer",
+        "period": "2022 - 2023",
+        "bullets": [
+          "Led data acquisition and analysis for multi-driver lineups",
+          "Designed stint strategies for endurance-format rounds",
+          "Provided driver-specific coaching via sector-level comparisons",
+          "Built setup change matrices for varying track conditions"
+        ]
+      },
+      {
+        "title": "Ferrari Challenge",
+        "role": "Data Engineer",
+        "period": "2021 - 2022",
+        "bullets": [
+          "Processed and analyzed onboard telemetry across practice, qualifying, and race",
+          "Produced tyre degradation models to guide pit-stop timing",
+          "Supported driver development with structured video review sessions",
+          "Collaborated with team on damper and ride-height adjustments",
+          "Delivered debrief reports within 30 minutes of each session"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Behind the Scenes",
+    "title": "Featured Media",
+    "images": [
+      "Spa-Francorchamps - Porsche Cup",
+      "Pitwall - Live Telemetry",
+      "Garage - Pre-Session Prep",
+      "Team - Race Win Celebration",
+      "Data - Stint Analysis",
+      "Onboard - Driver POV",
+      "Prize Giving - Season Awards",
+      "Sim Rig - Virtual Testing",
+      "Ferrari Challenge",
+      "FPAK Gala - Season Champions"
+    ]
+  },
+  "simRacing": {
+    "eyebrow": "Virtual to Reality",
+    "title": "Sim Racing",
+    "imageAlt": "Sim racing setup",
+    "points": [
+      {
+        "title": "Pre-Event Preparation",
+        "text": "Every race weekend starts in the sim. I learn circuits corner by corner, test setup baselines, and develop reference laps before the car even hits the track."
+      },
+      {
+        "title": "Racecraft & Strategy",
+        "text": "Sim racing sharpens decision-making under pressure - overtaking windows, tyre management, and fuel strategy all transfer directly to real-world performance."
+      },
+      {
+        "title": "Data Correlation",
+        "text": "Comparing sim telemetry against real-car data helps validate setup changes and identify areas where the driver can extract more pace."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "From the Paddock",
+    "title": "Testimonials",
+    "quotes": [
+      {
+        "text": "Leo's data analysis and debrief sessions completely transformed my approach to qualifying. I found over half a second within two weekends.",
+        "author": "GT4 Driver",
+        "role": "Aston Martin GT4 Challenge"
+      },
+      {
+        "text": "Having an engineer who understands both the real car and the sim is a rare advantage. Leo bridges that gap better than anyone I've worked with.",
+        "author": "Porsche Cup Competitor",
+        "role": "Porsche Carrera Cup"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Let's Connect",
+    "title": "Contact",
+    "emailCta": "Email Me",
+    "form": {
+      "namePlaceholder": "Name",
+      "emailPlaceholder": "Email",
+      "messagePlaceholder": "Your message...",
+      "send": "Send Message",
+      "success": "Thanks for reaching out! I will get back to you soon."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "message": "Oops! Page not found",
+    "backHome": "Return to Home"
+  }
+}

@@ -1,31 +1,27 @@
-import { useInView } from "@/hooks/useInView";
+import { useTranslation } from "react-i18next";
 import { Quote } from "lucide-react";
+import { useInView } from "@/hooks/useInView";
 
-const quotes = [
-  {
-    text: "Leo's data analysis and debrief sessions completely transformed my approach to qualifying. I found over half a second within two weekends.",
-    author: "GT4 Driver",
-    role: "Aston Martin GT4 Challenge",
-  },
-  {
-    text: "Having an engineer who understands both the real car and the sim is a rare advantage. Leo bridges that gap better than anyone I've worked with.",
-    author: "Porsche Cup Competitor",
-    role: "Porsche Carrera Cup",
-  },
-];
+type TestimonialQuote = {
+  text: string;
+  author: string;
+  role: string;
+};
 
 const Testimonials = () => {
   const { ref, inView } = useInView();
+  const { t } = useTranslation();
+  const quotes = t("testimonials.quotes", { returnObjects: true }) as TestimonialQuote[];
 
   return (
     <section className="py-24">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-xs tracking-[0.3em] uppercase text-primary font-body mb-3">
-            From the Paddock
+            {t("testimonials.eyebrow")}
           </p>
           <h2 className="font-heading text-3xl sm:text-5xl uppercase text-foreground">
-            Testimonials
+            {t("testimonials.title")}
           </h2>
         </div>
 

@@ -1,33 +1,26 @@
+import { useTranslation } from "react-i18next";
 import { useInView } from "@/hooks/useInView";
 import gallerySim from "@/assets/gallery-sim.jpg";
 
-const points = [
-  {
-    title: "Pre-Event Preparation",
-    text: "Every race weekend starts in the sim. I learn circuits corner by corner, test setup baselines, and develop reference laps before the car even hits the track.",
-  },
-  {
-    title: "Racecraft & Strategy",
-    text: "Sim racing sharpens decision-making under pressure — overtaking windows, tyre management, and fuel strategy all transfer directly to real-world performance.",
-  },
-  {
-    title: "Data Correlation",
-    text: "Comparing sim telemetry against real-car data helps validate setup changes and identify areas where the driver can extract more pace.",
-  },
-];
+type SimPoint = {
+  title: string;
+  text: string;
+};
 
 const SimRacing = () => {
   const { ref, inView } = useInView();
+  const { t } = useTranslation();
+  const points = t("simRacing.points", { returnObjects: true }) as SimPoint[];
 
   return (
     <section id="sim" className="py-24 bg-card">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <p className="text-xs tracking-[0.3em] uppercase text-primary font-body mb-3">
-            Virtual to Reality
+            {t("simRacing.eyebrow")}
           </p>
           <h2 className="font-heading text-3xl sm:text-5xl uppercase text-foreground">
-            Sim Racing
+            {t("simRacing.title")}
           </h2>
         </div>
 
@@ -42,7 +35,7 @@ const SimRacing = () => {
           >
             <img
               src={gallerySim}
-              alt="Sim racing setup"
+              alt={t("simRacing.imageAlt")}
               className="w-full h-full object-cover"
               loading="lazy"
             />
