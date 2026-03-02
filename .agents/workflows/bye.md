@@ -45,7 +45,14 @@ Before shutting down, you must capture the state of the project.
 2. **Apply Updates**:
     * **Edit Directive**: Open relevant `.agents/directives/*.md` and add rules.
     * **Edit Script**: Ensure script fixes are permanent.
-3. **Log Improvements**:
+3. **Synchronize Repositories**:
+// turbo
+```powershell
+git push origin main
+```
+*Note:* This will push to both the original repo and `Leo-web` due to the multi-remote configuration.
+
+4. **Self-Improvement Review**:
     * Add a section to your Daily Report: `## 🧠 Agent Improvements`.
 
 ## 3. Execution Phase (The "Cleanup")
